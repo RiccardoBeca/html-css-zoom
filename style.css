@@ -5,6 +5,8 @@ header {
   align-items: flex-start;
   padding-top: 4px;
   background-color: black;
+  height: 70px;
+  
 }
 
 .members-view {
@@ -25,9 +27,55 @@ header {
 .maximize {
   color: white;
   align-items: center;
-  background-color: rgb(74, 74, 74);
+  background-color: rgba(74, 74, 74);
   border-radius: 5px;
   height: 20px;
   padding: 5px;
   margin-right: 5px;
+}
+
+
+/* MAIN */
+
+main {
+  overflow: auto;
+  height: calc(100vh - 170px);
+}
+
+.member-img  {
+  justify-content: center;
+  align-items: center;
+}
+
+.member-img .image {
+  height: 100px;
+  min-width: 200px;
+  position: relative;
+  margin-right: 2px;
+  margin-bottom: 5px;
+}
+
+.member-img .image img {
+  position: absolute;
+  
+}
+
+.image span {
+  color: white;
+  background-color: rgb(100, 111, 123, 0.4);
+  position: absolute;
+  bottom:0px;
+  left: 0px;
+  font-size: 13px;
+  padding: 4px;
+}
+
+
+
+/* /MAIN */
+
+
+
+footer {
+  height: 100px;
 }
