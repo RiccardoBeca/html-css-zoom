@@ -1,0 +1,25 @@
+/* FLEX CONTAINER */
+
+.flex-container{
+  display: flex;
+}
+/* /FLEX CONTAINER */
+
+
+
+.debug{
+  background-color: rgba(255,0, 0, 0.2);
+  border: 1px solid black;
+}
+
+.h100{
+  height: 100px;
+}
+
+.h200{
+  height: 200px;
+}
+
+.h500{
+  height: 500px;
+}
