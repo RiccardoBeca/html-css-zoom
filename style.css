@@ -24,7 +24,6 @@ header {
   margin-left: 5px;
 }
 
-
 .maximize {
   color: white;
   align-items: center;
@@ -34,7 +33,6 @@ header {
   padding: 5px;
   margin-right: 5px;
 }
-
 
 /* MAIN */
 
@@ -58,7 +56,6 @@ main {
   margin-bottom: 10px;
 }
 
-
 .image span {
   color: white;
   background-color: rgb(100, 111, 123, 0.4);
@@ -68,7 +65,6 @@ main {
   font-size: 13px;
   padding: 4px;
 }
-
 /* /MAIN */
 
 
@@ -80,9 +76,10 @@ footer {
   background-color:rgb(34, 34, 34);
 }
 
+/* NAV LEFT */
 .nav-left {
   color: white;
-  width: 20vh;
+  width: 20vw;
   padding-left: 10px;
 }
 
@@ -92,10 +89,6 @@ footer {
 
 .nav-left p {
   font-size: 12px;
-}
-
-.nav-center {
-  width: calc(100vh - 40vh)
 }
 
 .nav-left span {
@@ -117,14 +110,68 @@ footer {
   padding-left: 10px;
 }
 
-.nav-right {
-  width: 20vh;
+/* /NAV LEFT */
+
+/* NAV CENTER */
+
+.nav-center {
+  color: white;
+  width: calc(100vw - 40vw);
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-center span {
+  padding-right: 10px;
+}
+
+ul {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+
+nav ul li p {
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+nav ul li i {
+  font-size: 1.5rem;
+}
+
+li i:active {
+  color: rgb(75, 200, 0);
 }
 
 
+/* /NAV CENTER */
+
+/* NAV RIGHT */
+.nav-right {
+  width: 20vw;
+  justify-content: flex-end;
+}
+
+.end-call {
+  align-items: center;
+  padding: 20px;
+  height: 100%;
+  background-color:rgb(74, 74, 74) ;
+}
 
 
-
-
+.end-call p {
+  font-size: 12px;
+  color:rgb(255, 37, 41) ;
+}
+/* /NAV RIGHT */
 
 /* /FOOTER */
