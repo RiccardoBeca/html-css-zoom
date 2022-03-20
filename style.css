@@ -20,6 +20,7 @@ header {
 }
 
 .members-view p {
+  font-size: 12px;
   margin-left: 5px;
 }
 
@@ -38,8 +39,10 @@ header {
 /* MAIN */
 
 main {
+  background-color: black;
   overflow: auto;
   height: calc(100vh - 170px);
+  padding-bottom: 30px;
 }
 
 .member-img  {
@@ -52,13 +55,9 @@ main {
   min-width: 200px;
   position: relative;
   margin-right: 2px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
-.member-img .image img {
-  position: absolute;
-  
-}
 
 .image span {
   color: white;
@@ -70,12 +69,11 @@ main {
   padding: 4px;
 }
 
-
-
 /* /MAIN */
 
 
-
+/* FOOTER */
 footer {
   height: 100px;
 }
+/* /FOOTER */
