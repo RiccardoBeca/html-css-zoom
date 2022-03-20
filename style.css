@@ -74,6 +74,57 @@ main {
 
 /* FOOTER */
 footer {
+  flex-shrink: 0;
+  justify-content: space-between;
   height: 100px;
+  background-color:rgb(34, 34, 34);
 }
+
+.nav-left {
+  color: white;
+  width: 20vh;
+  padding-left: 10px;
+}
+
+.microphone, .video i {
+  font-size: 1.5rem;
+}
+
+.nav-left p {
+  font-size: 12px;
+}
+
+.nav-center {
+  width: calc(100vh - 40vh)
+}
+
+.nav-left span {
+  align-self: center;
+  font-size: 15px;
+  padding-left: 10px;  
+}
+
+.microphone {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.nav-right {
+  width: 20vh;
+}
+
+
+
+
+
+
+
 /* /FOOTER */
